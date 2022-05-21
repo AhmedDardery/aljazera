@@ -417,12 +417,6 @@ a {
   box-shadow: inset -1px 3px 13px 0px black;
 
 } 
-@(max-width: 991px) {
-
-tit h1{
-  text-align: center;
-  margin: 50px auto;
-}
 
 
 .landing .sh1 {
