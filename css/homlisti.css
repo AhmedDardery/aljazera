@@ -1326,6 +1326,10 @@ a{
   overflow: hidden;
 }
 
+.property-type .heading{
+  text-align: center;
+}
+
 .property-type .heading span {
   display: block;
   font-family: 'Ubuntu', sans-serif;
