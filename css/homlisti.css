@@ -70,6 +70,8 @@ a {
 .fix{
   position: fixed;
   right: 0;
+  border-radius: 20px;
+  
 }
 
 /* Start Main Heading */
@@ -145,6 +147,8 @@ a {
   justify-content: center;
   align-items: center;
   transition: var(--main-transition);
+  background-color: black;
+  border-radius: 20px;
 }
 
 .main-header nav .links > li {
@@ -157,10 +161,12 @@ a {
 }
 
 .main-header nav .links > li > a {
-  color: black;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
+  color: white;
   transition: var(--main-transition);
+  font-weight: 800;
+  
 }
 
 .main-header nav .links > li > a::before {
@@ -201,7 +207,7 @@ a {
 .main-header nav .mega-menu {
   position: absolute;
   top: calc(100% + 5px);
-  width: 17%;
+  width: max-content;
   background-color: white;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
   border-radius: 4px;
@@ -418,6 +424,23 @@ a {
 
 } 
 
+@media (max-width:789){
+  .tit h1{
+  text-align: center;
+    margin: 200px auto;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: var(--main-heading);
+    margin: 0.67em 0;
+    color: white;
+    width: 398px;
+    position: absolute;
+    left: 7px;
+    top: 200px;
+    /* font-size: xxx-large; */
+    color: #4d0385e0;
+    box-shadow: inset -1px 3px 13px 0px #00000033;
+}
+}
 
 .landing .sh1 {
   position: absolute;
@@ -2490,7 +2513,7 @@ a{
   }
 }
 /* ------------------------------------- */
-@(max-width: 991px) {
+@media (max-width: 991px) {
   .main-header {
     height: 75px;
     background-color: white;
@@ -2499,10 +2522,10 @@ a{
 
 
   .main-header nav .links {
-    background-color: white;
-    color: black;
+   
     height: 50px;
     margin-top: 0;
+    width: 270px;
   }
   /* .main-header nav .links {
     display: none;
