@@ -2923,4 +2923,33 @@ a{
     transform: rotate(20deg);
   }
 }
+
+.whats{
+    
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  
+  
+
+}
+
+.whats img{
+  background-color: transparent;
+}
+.ws {
+  height: 50px;
+  margin-top: 35px;
+
+}
+
+.whats:hover{
+
+
+background-image: url("475.gif");
+}
+.whats img{
+  background-color: transparent;
+}
+
 /* End Animation */
